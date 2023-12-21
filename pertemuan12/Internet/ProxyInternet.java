@@ -25,3 +25,14 @@ public class ProxyInternet implements Internet {
         internet.connectTo(serverhost);
     }
 }
+
+/**
+ * TODO 1:
+ * untuk menambahkan situs baru yang akan di ban
+ * file yang akan terkena dampaknya adalah Client.java
+ * 
+ * TODO 2:
+ * perbedaan antara proxy dan adapter
+ * adapter harus menambahkan interface dan class baru
+ * sedang, proxy tidak perlu menambahkan
+ */
